@@ -1,103 +1,115 @@
 hr {
-    border: double lavender;
+  border: double lavender;
 }
 
-h1{
-    text-shadow: 3px 3px 4px cadetblue;
-    font-family: verdana;           
-    padding: 2px 2px 5px 50px;
-    color:cadetblue;
-    font-weight: bold;
-    font-size: xx-large;
-       
+h1 {
+  text-shadow: 3px 3px 4px cadetblue;
+  font-family: verdana;
+  padding: 2px 2px 5px 50px;
+  color: cadetblue;
+  font-weight: bold;
+  font-size: xx-large;
 }
 h1:first-letter {
-    color:tomato;
+  color: tomato;
 }
-h2{
-    text-shadow: 3px 3px 4px cadetblue;
-    font-family: verdana;           
-    padding: 2px 2px 5px 50px;
-    color:cadetblue;
-    font-weight: bold;
-    font-size: x-large;
-       
+h2 {
+  text-shadow: 3px 3px 4px cadetblue;
+  font-family: verdana;
+  padding: 2px 2px 5px 50px;
+  color: cadetblue;
+  font-weight: bold;
+  font-size: x-large;
 }
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0 50px 0 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 50px 0 50px;
 }
 #motto {
-    padding: 320px 0px 0 0;
-    color:cadetblue;
-    font-size: larger;
-    font-weight: bold;
-    font-style: italic;    
+  padding: 320px 0px 0 0;
+  color: cadetblue;
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: -30px;
 }
 
 body {
-    background: rgb(164,12,40);
-background: radial-gradient(circle, rgba(164,12,40,1) 10%, rgba(78,64,97,1) 58%);
-    display: block;
-    margin: 0 auto;
+  background: rgb(164, 12, 40);
+  background: radial-gradient(
+    circle,
+    rgba(164, 12, 40, 1) 10%,
+    rgba(78, 64, 97, 1) 58%
+  );
 }
 #navUl {
-    text-align: center;
-    list-style-type: none;
-    margin: 25px;
-    padding: 0;
+  text-align: center;
+  list-style-type: none;
+  margin: 25px;
+  padding: 0;
 }
 .navList {
-display: inline;
-background-color: lavender; border: 3px solid cadetblue; 
-border-radius: 25px; 
-margin-top: 3px ;  
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-padding: 15px;
-margin: 10px;
-font-weight: bold;
+  display: inline;
+  background-color: lavender;
+  border: 3px solid cadetblue;
+  border-radius: 25px;
+  margin-top: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: none;
 }
 .liAbout {
-    padding: 0 50px 0 30px;
+  padding: 0 50px 0 30px;
 }
 footer {
-    text-align: center;
-    font-size: 10px;
-    font-style: italic;          
-    color: aliceblue;
-    margin: 0;
+  text-align: center;
+  font-size: 10px;
+  font-style: italic;
+  color: aliceblue;
+  margin: 0;
 }
 img {
-    margin-left: 30px;
-    border: cadetblue solid 2px;
-    border-radius: 90px;
-    height: 400px;
-    width: 400px;
-    float: left;  
+  margin-left: 30px;
+  border: cadetblue solid 2px;
+  border-radius: 90px;
+  height: 400px;
+  width: 400px;
+  float: left;
 }
 section {
-    background-color: lavender; 
-    border: 3px solid cadetblue; 
-    border-radius: 15px; 
-    margin-top: 10px; 
-    padding: 50px 10px 10px 10px;
+  background-color: lavender;
+  border: 3px solid cadetblue;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 50px 10px 10px 10px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 #wrapper {
-    min-width: 1000px;
-    overflow: scroll;
+  min-width: 800px;
+  overflow: auto;
 }
 #divHome {
-    display: flex;
-    align-items: start;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #divAboutMe {
-    display: block;
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 p:href {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 
