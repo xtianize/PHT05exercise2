@@ -45,24 +45,31 @@ body {
 #navUl {
   text-align: center;
   list-style-type: none;
-  margin: 25px;
+  margin: 15px;
   padding: 0;
+  
 }
 .navList {
-  display: inline;
+  display: inline-block;
   background-color: lavender;
   border: 3px solid cadetblue;
-  border-radius: 25px;
+  border-radius: 18px;
   margin-top: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 15px;
-  margin: 10px;
+  margin: 5px 20px;
   font-weight: bold;
+  width: 6rem;
+  
   
 }
 
 .navList:hover {
+  transition: all .3s ease;
   transform: translateY(-5px);
+  background-color: rgb(208, 170, 235); 
+  
+
 }
 
 .liAbout {
